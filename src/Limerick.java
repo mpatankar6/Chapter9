@@ -12,12 +12,7 @@ public class Limerick extends Poem {
     @Override
     public void printRhythm() {
         for (int i = 0; i <= 5; i++) {
-            for (int j = 0; j < getSyllables(i); j++) {
-                System.out.print("ta");
-                if (j != getSyllables(i) - 1) System.out.print("-");
-            }
-
-            System.out.print("\n");
+            super.printTas(getSyllables(i));
         }
     }
 
