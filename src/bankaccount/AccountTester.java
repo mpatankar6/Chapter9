@@ -48,7 +48,7 @@ public class AccountTester {
  * Savings account 300.0
  * 250.0 250.0
  * Special bankaccount.Account 350.0
- * 247.5 250.0
+ * 247.5 247.5
  * Special bankaccount.Account 850.0
  * 895.0 895.0
  * bankaccount.Account 1233
@@ -58,10 +58,10 @@ public class AccountTester {
  * Balance 250.0
  * Interest 0.8333333333333334
  * bankaccount.Account 1235
- * Balance 250.0
- * Interest 10416.666666666666
+ * Balance 247.5
+ * Interest 1.0
  * bankaccount.Account 1236
  * Balance 895.0
- * Interest 29833.333333333332
+ * Interest 3.7291666666666665
  * Interest: 1.0, .833, 1.0, 3.73
  */
